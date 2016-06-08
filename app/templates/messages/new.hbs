@@ -1,0 +1,13 @@
+<div class="new-msg-form">
+	<form>
+		<div class="form-group">
+			{{input type="text" placeholder="Name" value=name class="name-input"}}
+		</div>
+
+		<div class="form-group">
+			{{textarea type="textarea" placeholder="Message" value=body class="msg-input"}}
+		</div>
+
+		<button {{action 'addMessage'}} class="submit btn">Submit</button>
+	</form>
+</div>

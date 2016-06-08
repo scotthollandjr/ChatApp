@@ -1,0 +1,12 @@
+.box{
+	border-style: solid;
+	margin: 2%;
+}
+
+.new-msg-form{
+	margin-left: 5%;
+}
+
+html{
+	padding-left: 5px;
+}

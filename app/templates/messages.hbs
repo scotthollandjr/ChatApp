@@ -1,0 +1,13 @@
+<div class="new-msg-link">{{#link-to 'messages.new'}}Add a new Message{{/link-to}}</div>
+
+
+
+<div class="box">
+	<div class="box-2">
+	{{#each model as |message|}}
+		<div class="each-msg"><h5>{{message.name}}: </h5> {{message.body}}</div>
+	{{/each}}
+	</div>
+</div>
+
+{{outlet}}
